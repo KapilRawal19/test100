@@ -102,9 +102,9 @@ class MavrosOffboardAttctlTest(MavrosTestCommon):
     def test_attctl(self):
         """Test offboard attitude control"""
         # boundary to cross
-        boundary_x = 0
-        boundary_y = 0
-        boundary_z = 2
+        boundary_x = 200
+        boundary_y = 100
+        boundary_z = 20
 
         # make sure the simulation is ready to start the mission
         self.wait_for_topics(60)

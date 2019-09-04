@@ -17,7 +17,6 @@ px4_add_board(
 		#magnetometer # all available magnetometer drivers
 		pwm_out_sim
 		#telemetry # all available telemetry drivers
-		sim/tone_alarm
 		tone_alarm
 		#uavcan
 
@@ -45,7 +44,7 @@ px4_add_board(
 		simulator
 		vmount
 		vtol_att_control
-		wind_estimator
+		airspeed_selector
 
 	SYSTEMCMDS
 		#bl_update
